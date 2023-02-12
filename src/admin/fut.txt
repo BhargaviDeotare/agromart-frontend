@@ -1,0 +1,15 @@
+<form >
+               
+<div className="form-group">
+<button id="b1" className="btn btn-outline-warning" onClick={changeStatusOrder("Shipped")}>Shipped</button>
+<button  id="b2" className="btn btn-outline-warning" onClick={changeStatusOrder("Cancelled")}>Cancelled</button>
+<button  id="b3" className="btn btn-outline-warning" onClick={changeStatusOrder("Delivered")}>Delivered</button>
+<button  id="b4" className="btn btn-outline-warning" onClick={changeStatusOrder("Processing")}>Processing</button>
+
+
+</div>
+</form>   
+
+<button  id="b2" className="btn btn-outline-warning" onClick={changeStatusOrder()}>Cancelled</button>
+<button  id="b3" className="btn btn-outline-warning" onClick={changeStatusOrder()}>Delivered</button>
+<button  id="b4" className="btn btn-outline-warning" onClick={changeStatusOrder()}>Processing</button>
